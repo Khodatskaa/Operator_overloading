@@ -4,10 +4,21 @@
     <Filter Include="SourceFile">
       <UniqueIdentifier>{da8a7785-fdd8-48d7-9654-45063b0ffb52}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fraction">
+      <UniqueIdentifier>{bb29af90-c187-4dba-a81b-1b9e3cdd9cb6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>SourceFile</Filter>
     </ClCompile>
+    <ClCompile Include="Fraction.cpp">
+      <Filter>Fraction</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fraction.h">
+      <Filter>Fraction</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
