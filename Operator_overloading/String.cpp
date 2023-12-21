@@ -6,3 +6,4 @@ string String::operator*(const String& other) const
 {
 	return str1 + other.str1 + str2 + other.str2;
 }
+
